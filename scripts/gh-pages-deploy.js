@@ -16,7 +16,7 @@ const e_x = emoji.get('x');
     console.log(`${e_arrows} ${chalk.yellow('Building...')}`);
     await execa('npm', ['run', 'build']);
     // Understand if it's dist or build folder
-    const folderName = fs.existsSync('dist') ? 'dist' : 'build';
+    const folderName = 'public';
     await execa('git', ['--work-tree', folderName, 'add', '--all']);
     await execa('git', ['--work-tree', folderName, 'commit', '-m', 'master']);
 
