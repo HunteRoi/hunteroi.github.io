@@ -5,7 +5,7 @@
   "version": "0.1.2",
   "author": "Smakosh <ismai23l@hotmail.com>",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "chalk": "^4.0.0",
     "dotenv": "^6.2.0",
     "execa": "^4.0.2",
